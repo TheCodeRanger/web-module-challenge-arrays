@@ -45,9 +45,13 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
-}    
+function copy(originalFlavors){
+    let copyOriginalFlavors = [...originalFlavors];
+    console.log(copyOriginalFlavors);
+    return copyOriginalFlavors;
+}
+
+copy(originalFlavors);
 
 
 
