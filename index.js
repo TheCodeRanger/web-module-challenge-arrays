@@ -45,13 +45,11 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(originalFlavors){
-    let copyOriginalFlavors = [...originalFlavors];
-    console.log(copyOriginalFlavors);
-    return copyOriginalFlavors;
+function copy(array){
+    return [...array];
 }
 
-copy(originalFlavors);
+console.log(copy(originalFlavors));
 
 
 
@@ -68,8 +66,8 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+function is31Flavors(array){
+    if 
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -136,9 +134,6 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-    /*your code here*/
-}
 
 
 
