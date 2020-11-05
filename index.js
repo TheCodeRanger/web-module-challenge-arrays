@@ -67,7 +67,11 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 
 
 function is31Flavors(array){
-    return array.length===31;
+    if(array.length === 31) {
+        return true;
+    } else {
+        return false;
+    }
 }
 console.log(is31Flavors(originalFlavors));
 
@@ -85,7 +89,8 @@ Use the addFlavor function below to do the following:
 
 
 function addFlavor(array, string){
-    return array.unshift(string);
+    array.unshift(string);
+    return array;
  }
  console.log(addFlavor(originalFlavors, "Rainbow Sherbert"));
 
@@ -134,7 +139,9 @@ Use the removeFlavorByName function below to do the following:
     For example: running removeFlavorByName(originalFlavors, "Rocky Road") would return an array with the a length of 30 because Rocky Road would have been removed. 
 
     HINT: You can use .splice() for this
-*/
+*/function removeFlavorByName() {
+
+}
 
 
 
